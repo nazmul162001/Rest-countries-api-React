@@ -18,9 +18,16 @@ const Countries = () => {
     <div className="container-countries">
     {
       countries.map(country => <Country 
-        country = {country.name.common}
-        capital = {country.capital}
-        population = {country.population}
+        country = {country}
+
+        // all are include in country 
+        
+        // name = {country.name.common}
+        // capital = {country.capital}
+        // population = {country.population}
+        // region = {country.region}
+        // area = {country.area}
+
         ></Country>)
     }
     </div>
