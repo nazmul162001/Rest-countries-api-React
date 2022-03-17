@@ -14,10 +14,16 @@ const Countries = () => {
 
   return (
     <div>
-      <h1>Hello fromo countries: {countries.length}</h1>
+      <h1>Total countries: {countries.length}</h1>
+    <div className="container-countries">
     {
-      countries.map(country => <Country country = {country.name.common}></Country>)
+      countries.map(country => <Country 
+        country = {country.name.common}
+        capital = {country.capital}
+        population = {country.population}
+        ></Country>)
     }
+    </div>
 
     </div>
   );
