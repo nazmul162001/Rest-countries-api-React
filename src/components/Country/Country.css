@@ -3,4 +3,22 @@
   margin: 3rem;
   padding: 1rem;
   border-radius: 20px;
+  transition: transform .3s ease-in-out;
+  padding-bottom: 1rem;
+}
+.container-country:hover{
+  transform: scale(1.1) translateY(-20px);
+}
+.container-country img{
+  max-width: 150px;
+  padding: .5rem 2.5rem 0 2.5rem;
+}
+.container-country a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: .5rem 1.5rem;
+  background-color: rgba(97, 119, 97, 0.507);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: rgba(32, 25, 25, 0.76);
 }
